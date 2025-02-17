@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class ModeMenu : MonoBehaviour
 {
+  
     public void Playgame()
     {
-        SceneManager.LoadScene("GameModes");
+        SceneManager.LoadScene("Game");
     }
 
-    public void Quitgame()
+    public void Glassmode()
     {
-        Application.Quit();
+        SceneManager.LoadScene("Glass mode");
     }
-   
 }
